@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondence of Catherine the Great - orgography</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+     <revisionDesc>
+        <change when="2025-02-26" who="djakacki">New TEI-All structure created (Jakacki) </change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+<listOrg xmlns="http://www.tei-c.org/ns/1.0">
+  <org xml:id="anja01">
+    <orgName type="main">Anjala Confederation</orgName>
+    <orgName xml:lang="sv">Anjalaförbundet</orgName>
+  </org>
+  <org xml:id="bash01">
+    <orgName type="main">Bashkirs</orgName>
+  </org>
+  <org xml:id="cava01">
+    <orgName type="main">Cavalier Guards</orgName>
+    <orgName xml:lang="ru">Кавалергардский полк</orgName>
+  </org>
+  <org xml:id="coll01">
+    <orgName type="main">College of Foreign Affairs</orgName>
+    <orgName xml:lang="ru">Коллегия иностранных дел</orgName>
+  </org>
+  <org xml:id="comm01">
+    <orgName type="main">Commission for the Composition of a Project for a New Law
+			Code</orgName>
+    <orgName type="alternative">Legislative Commission</orgName>
+    <orgName xml:lang="ru">Комиссия для сочинения проэкта новаго Уложения</orgName>
+  </org>
+  <org xml:id="coss01">
+    <orgName type="main">Cossacks</orgName>
+  </org>
+  <org xml:id="coun01">
+    <orgName type="main">Council at the Imperial Court</orgName>
+    <orgName xml:lang="ru">Совет при Высочайшем Дворе</orgName>
+    <note type="editorial">Existed 1769-1801.</note>
+  </org>
+  <org xml:id="coun02">
+    <orgName type="main">Council of State (France)</orgName>
+    <orgName xml:lang="fr">Conseil d'Etat</orgName>
+    <note type="editorial">Council of ministers, mostly for foreign policy.</note>
+  </org>
+  <org xml:id="czar01">
+    <orgName type="main">Czartoryski Family (Poland)</orgName>
+    <orgName xml:lang="po">Familia</orgName>
+  </org>
+  <org xml:id="diet01">
+    <orgName type="main">Perpetual Diet of Regensburg</orgName>
+    <orgName xml:lang="de">Immerwährender Reichstag</orgName>
+    <orgName xml:lang="fr">Diète de Ratisbonne</orgName>
+    <note type="editorial">The permanent diet of the Holy Roman Empire, which lasted from 1663
+			until 1806, based in Regensburg, Germany.</note>
+  </org>
+  <org xml:id="donc01">
+    <orgName type="main">Don Cossacks</orgName>
+  </org>
+  <org xml:id="esta01">
+    <orgName type="main">Estates General</orgName>
+    <orgName xml:lang="fr">Etats-généraux</orgName>
+  </org>
+  <org xml:id="firs01">
+    <orgName type="main">First Army (Russo-Turkish War, 1768-1774)</orgName>
+  </org>
+  <org xml:id="free01">
+    <orgName type="main">Free Economic Society</orgName>
+    <orgName xml:lang="ru">Вольное Экономическое Общество</orgName>
+  </org>
+  <org xml:id="gree01">
+    <orgName type="main">Greek Orthodox Church</orgName>
+  </org>
+  <org xml:id="gren01">
+    <orgName type="main">Grenadier Guards Regiment</orgName>
+    <orgName xml:lang="ru">Лейб-гренадерский полк</orgName>
+    <note type="editorial">Catherine commanded the regiment herself as their colonel.</note>
+  </org>
+  <org xml:id="hols01">
+    <orgName type="main">House of Holstein</orgName>
+  </org>
+  <org xml:id="holy01">
+    <orgName type="main">Holy Synod</orgName>
+  </org>
+  <org xml:id="hors01">
+    <orgName type="main">Horse Guards</orgName>
+    <orgName xml:lang="ru">Конный лейб-гвардии полк</orgName>
+  </org>
+  <org xml:id="impe01">
+    <orgName type="main">Imperial Theatre</orgName>
+  </org>
+  <org xml:id="impe02">
+    <orgName type="main">Imperial Cabinet</orgName>
+    <orgName xml:lang="ru">Императорский кабинет</orgName>
+  </org>
+  <org xml:id="infa01">
+    <orgName type="main">Infantry Noble Cadet Corps</orgName>
+    <orgName xml:lang="ru">Сухопутный шляхетный кадетский корпус</orgName>
+    <note type="editorial">See <bibl><author>Petr Fomich Luzanov</author>, <title ref="works.xml#sukhop01">Sukhoputnyi shlyakhetnyi kadetskii korpus (nyne 1-i
+					kadetskii korpus) pri grafe Minikhe (c 1732 po 1741)</title> (<pubPlace>St.
+					Petersburg</pubPlace>: <publisher>Shmidt</publisher>, <date>1907</date>)</bibl>;
+					<bibl><author>Vladislav Rjéoutski and Derek Offord</author>, <title>French in
+					public education in eighteenth-century Russia: the case of the Cadet
+					Corps</title>,
+				https://frinru.ilrt.bris.ac.uk/introduction/french-public-education-eighteenth-century-russia-case-cadet-corps</bibl>;
+			and <bibl><author>Igor Fedyukin</author>, <title ref="works.xml#learni01">Learning To Be
+					Nobles: The Elite and Education in Post-Petrine Rusia [sic]</title> (unpublished
+				doctoral thesis, University of North Carolina at Chapel Hill,
+				<date>2009</date>).</bibl></note>
+  </org>
+  <org xml:id="leag01">
+    <orgName type="main">League of Princes</orgName>
+    <orgName xml:lang="de">Deutsche Fürstenbund</orgName>
+    <note type="editorial">Alliance formed in 1785 under the leadership of <ref target="people.xml#fre01">Frederick II</ref> of <ref target="places.xml#pru01">Prussia</ref> to oppose <ref target="people.xml#jos01">Joseph II</ref>'s
+			negotiations with <ref target="people.xml#kar02">Karl Theodor</ref>, elector of <ref target="places.xml#bav01">Bavaria</ref> and of the <ref target="places.xml#pal01">Palatinate</ref>, to receive <ref target="places.xml#bav01">Bavaria</ref> in
+			exchange for the <ref target="places.xml#aus02">Austrian Netherlands</ref>.</note>
+  </org>
+  <org xml:id="mosc01">
+    <orgName type="main">Moscow police board</orgName>
+    <orgName xml:lang="ru">Московская управа благочиния</orgName>
+  </org>
+  <org xml:id="mosc02">
+    <orgName type="main">Moscow University Press</orgName>
+    <orgName xml:lang="ru">Типография Московского университета</orgName>
+  </org>
+  <org xml:id="nati01">
+    <orgName type="main" xml:lang="en">National Constituant Assembly</orgName>
+    <orgName xml:lang="fr">Assemblée nationale constituante</orgName>
+    <note type="editorial">Created 9 July 1789. Became the National Legislative Assembly
+			(Assemblée nationale législative) on 1 October 1791.</note>
+  </org>
+  <org xml:id="nota01">
+    <orgName type="main">Assembly of Notables</orgName>
+    <orgName xml:lang="fr">Assemblée des Notables</orgName>
+  </org>
+  <org xml:id="oren01">
+    <orgName type="main">Orenburg Muslim Spiritual Assembly</orgName>
+    <!-- optional non-english versions -->
+    <orgName xml:lang="ru"> Оренбургское магометанское духовное собрание</orgName>
+    <note type="editorial">editorial notes</note>
+  </org>
+  <org xml:id="perm01">
+    <orgName type="main">Permanent Council</orgName>
+    <orgName xml:lang="pl">Rada Nieustająca</orgName>
+    <note type="editorial">Created in October 1774 after the first partition of Poland. Composed
+			of 36 members under the presidency of the king (<ref target="people.xml#pon01">Stanislas
+				August Poniatowski</ref>), it saw to the execution of the laws, guarded the Polish
+			constitution, oversaw state finances and foreign affairs, and was charged with codifying
+			Polish laws. It could not interpret the laws but could draft bills for the Sejm. It had
+			five departments: 'foreign interests', 'police', the army, justice, and finance.
+			Abolished on 19 January 1789 (NS): this was a diplomatic defeat for Catherine and a
+			victory for Prussia. (<bibl><author>Lukowski</author>, <title ref="works.xml#partit01">The Partitions of Poland</title>, <biblScope unit="page">pp. 96-97,
+					131</biblScope></bibl></note>
+  </org>
+  <org xml:id="preo01">
+    <orgName type="main">Preobrazhenskii Regiment</orgName>
+  </org>
+  <org xml:id="roma01">
+    <orgName type="main">Roman Catholic Church</orgName>
+  </org>
+  <org xml:id="russ01">
+    <orgName type="main">Russian Orthodox Church</orgName>
+    <orgName xml:lang="ru">Русская православная церковь</orgName>
+    <note type="editorial">Originally subject to the Patriarchate of Constantinople from the
+			time of the adoption of Christianity in Rus', the fall of Constantinople to the Ottomans
+			brought about the effective independence of the Russian Church in the 15th century.
+			Nonetheless the church is frequently still referred to as the 'Greek Church' in
+			Catherine's letters. Peter the Great's reforms brought the Church fully under the power
+			of the State, with the governing Holy Synod an organ of the imperial government.
+			Catherine came to power by wisely displaying respect for the Russian Church, while at
+			the same time pursuing policies such as the secularisation of Church lands that
+			continued the ascendance of State power.</note>
+  </org>
+  <org xml:id="russ02">
+    <orgName type="main">Russian Navy</orgName>
+  </org>
+  <org xml:id="secr01">
+    <orgName type="main">Secret Commission in Kazan investigating Pugachev</orgName>
+    <note type="editorial">First created at the end of November 1773 to find the roots of the
+			uprising, it also ordered exemplary punishments to deter adherence to Pugachev. It
+			reported to the Secret Expedition in St. Petersburg, where Catherine reviewed its
+			sentences. It was initially placed under General A.I. Bibikov's supervision and composed
+			of Guards Captain Aleksandr Lunin, secretary of the Secret Expedition Ivan Zriakov,
+			Guards Sub-Captain Savva Mavrin, and Guards Sub-Lieutenant Vasily Sobakin. In April
+			1774, this commission divided to create an Orenburg branch: the governor of Kazan, Jacob
+			Larionovich von Brandt, was put in charge of the commission remaining in Kazan, while
+			Governor General Ivan Andreevich Reinsdorp took over in Orenburg. But already on 11 June
+			1774, Catherine named Pavel Sergeevich Potemkin to head, under her direct supervision,
+			both the Kazan and Orenburg divisions of the Secret Commission.
+					(<bibl><author>Alexander</author>, <title ref="works.xml#alexander01">Autocratic
+					Politics in a National Crisis</title>, <biblScope unit="page">p. 75, 139-40,
+					146</biblScope></bibl>)</note>
+  </org>
+  <org xml:id="secr02">
+    <orgName type="main">Secret Commission in Moscow to prosecute Pugachev</orgName>
+  </org>
+  <org xml:id="secr03">
+    <orgName type="main">Secret Commission in Ekaterinburg investigating the Pugachev
+			Rebellion</orgName>
+  </org>
+  <org xml:id="secr04">
+    <orgName type="main">Secret Police</orgName>
+    <orgName xml:lang="ru">Тайная экспедиция</orgName>
+  </org>
+  <org xml:id="seme01">
+    <orgName type="main">Semenovsky Guards Regiment</orgName>
+  </org>
+  <org xml:id="sena01">
+    <orgName type="main">Senate</orgName>
+  </org>
+  <org xml:id="slav01">
+    <orgName type="main">Slavonic-Greek-Latin Academy, Moscow</orgName>
+    <note type="editorial">Set up in the 1680s on the model of the Kiev Theological Academy. Its
+			students included Antiokh Kantemir, Vasily Tredyakovsky, Mikhail Lomonosov, Platon
+			Levshin.</note>
+  </org>
+  <org xml:id="star01">
+    <orgName type="main">Starooskol'skii Regiment</orgName>
+  </org>
+  <org xml:id="swed01">
+    <orgName type="main">Swedish Navy</orgName>
+  </org>
+  <org xml:id="tart01">
+    <orgName type="main">The Tartars</orgName>
+  </org>
+  <org xml:id="ukra01">
+    <orgName type="main">Second/Ukrainian Army</orgName>
+    <note type="editorial">Second army, commanded by <ref target="people.xml#rum01">Petr
+				Aleksandrovich Rumyantsev-Zadunaisky</ref>, in the early stages of the <ref target="events.xml#rus01">second Russo-Turkish War</ref></note>
+  </org>
+  <org xml:id="vlad01">
+    <orgName type="main">Order of St. Vladimir</orgName>
+    <orgName xml:lang="ru">Орден Святого Равноапольстольного Князя Владимира</orgName>
+    <note type="editorial">Instituted by Catherine the Great on 22 September (OS) 1782, to mark
+			the twenty-year anniversary of her coronation. The motto of the order was 'benefit,
+			honour and glory' ('польза, честь и слава'). It could be awarded for distinguished
+			service in both military and civil posts. First- and second-class awards came with the
+			fourth rank in the Table of Ranks, third- and fourth-class awards with the sixth rank:
+			they accordingly all endowed the recipient with hereditary nobility. The original
+			statute of the order can be found in the <bibl><title>PSZ</title>, <biblScope unit="volume">xxi: 1781-1783</biblScope>, <biblScope unit="page">pp. 671-75</biblScope>
+					(<idno>No. 15515</idno>).</bibl></note>
+  </org>
+  <org xml:id="whig01">
+    <orgName type="main">Whig Party</orgName>
+    <note type="editorial">Catherine refers to the supporters of <ref target="people.xml#fox01">Charles James Fox</ref> as the 'parti patriotique', seemingly referring to the
+			Rockingham Whigs.</note>
+  </org>
+  <org xml:id="yaik01">
+    <orgName type="main">Yaik Cossacks</orgName>
+  </org>
+  <org xml:id="acad01">
+    <orgName type="main">Russian Imperial Academy of Sciences</orgName>
+    <orgName type="alternative">L'Academie des sciences de Saint-Petersbourg</orgName>
+  </org>
+  <org xml:id="acad02">
+    <orgName type="main">Russian Imperial Academy of Arts</orgName>
+    <orgName type="alternative">L'Academie des beaux-arts de Saint-Petersbourg</orgName>
+  </org>
+  <org xml:id="acad03">
+    <orgName type="main">Académie Francaise</orgName>
+  </org>
+  <org xml:id="admi01">
+    <orgName type="main">The Admiralty</orgName>
+    <orgName type="alternative">Адмиралтейство</orgName>
+  </org>
+  <org xml:id="andr01">
+    <orgName type="main">Order of St Andrew</orgName>
+  </org>
+  <org xml:id="angl01">
+    <orgName type="main">British goverment</orgName>
+    <orgName type="alternative">Английское правительство</orgName>
+  </org>
+  <org xml:id="arta01">
+    <orgName type="main">Artaria</orgName>
+    <note>music publishing house</note>
+  </org>
+  <org xml:id="barc01">
+    <orgName type="main">Bar Confederation</orgName>
+    <note>(1768–1772) an association of Polish nobles formed to defend the internal and external independence of the Polish–Lithuanian Commonwealth against Russian influence and against King Stanislaus II Augustus</note>
+  </org>
+  <org xml:id="bata01">
+    <orgName type="main">Batavians</orgName>
+    <orgName type="alternative">Bataves @lang-fr</orgName>
+    <note>The Dutch</note>
+  </org>
+  <org xml:id="bolg01">
+    <orgName type="main">the Bulgars</orgName>
+    <note>referenced in letter 02853</note>
+  </org>
+  <org xml:id="bour01">
+    <orgName type="main">House of Bourbon</orgName>
+  </org>
+  <org xml:id="cabi01">
+    <orgName type="main">Imperial Cabinet</orgName>
+    <bibl>https://www.wikidata.org/wiki/Q4200352</bibl>
+  </org>
+  <org xml:id="celt01">
+    <orgName type="main">Celts</orgName>
+  </org>
+  <org xml:id="chan01">
+    <orgName type="main">Chancellery of guardship of foreigners</orgName>
+    <note>Founded in 1763 in SPb by Catherine + G. G. Orlov; letter-01165</note>
+  </org>
+  <org xml:id="coll02">
+    <orgName type="main">Russian Collegium of State Expenses</orgName>
+  </org>
+  <org xml:id="coll03">
+    <orgName type="main">College of the Navy</orgName>
+    <note>Letter-02853</note>
+  </org>
+  <org xml:id="coll04">
+    <orgName type="main">College of War</orgName>
+  </org>
+  <org xml:id="cont01">
+    <orgName type="main">Continental Congress</orgName>
+  </org>
+  <org xml:id="dipl01">
+    <orgName type="main">Diplomatic Department</orgName>
+  </org>
+  <org xml:id="diva01">
+    <orgName type="main">Divan</orgName>
+    <note>The council of the nobelmen in Wallachia and Moldavia. Letter-02911.</note>
+  </org>
+  <org xml:id="domi01">
+    <orgName type="main">The Dominican Order</orgName>
+  </org>
+  <org xml:id="dutc01">
+    <orgName type="main">the Dutch</orgName>
+    <note>referenced in letter 02853</note>
+  </org>
+  <org xml:id="ecol01">
+    <orgName type="main">École militaire (Military School), Paris</orgName>
+  </org>
+  <org xml:id="ecol02">
+    <orgName type="main">École des Beaux-Arts, Paris</orgName>
+  </org>
+  <org xml:id="eque01">
+    <orgName type="main">Court Equerry Office</orgName>
+    <orgName type="alternative">Придворная конюшенная контора</orgName>
+    <bibl>https://www.wikidata.org/wiki/Q4378122</bibl>
+  </org>
+  <org xml:id="etru01">
+    <orgName type="main">Etruscans</orgName>
+  </org>
+  <org xml:id="fran01">
+    <orgName type="main">The Franciscan Order</orgName>
+  </org>
+  <org xml:id="fren01">
+    <orgName type="main">French goverment</orgName>
+  </org>
+  <org xml:id="geor01">
+    <orgName type="main">Order of St George</orgName>
+  </org>
+  <org xml:id="gira01">
+    <orgName type="main">Girardot, Haller &amp; Co</orgName>
+    <note>Bank Catherine II used for some of her art acquisitions</note>
+  </org>
+  <org xml:id="gree02">
+    <orgName type="main">the Greeks</orgName>
+    <note>referenced in letter 02853</note>
+  </org>
+  <org xml:id="habs01">
+    <orgName type="main">House of Habsburg</orgName>
+  </org>
+  <org xml:id="hano01">
+    <orgName type="main">House of Hanover</orgName>
+  </org>
+  <org xml:id="hohe01">
+    <orgName type="main">House of Hohenzollern</orgName>
+  </org>
+  <org xml:id="hosp01">
+    <orgName type="main">Hôpital des Enfants-Trouvés, Paris</orgName>
+    <orgName type="alternative">Hospital for abandoned children</orgName>
+  </org>
+  <org xml:id="impe03">
+    <orgName type="main">Imperial Academy of Fine Arts</orgName>
+  </org>
+  <org xml:id="impe04">
+    <orgName type="main">Imperial Porcelain Factory</orgName>
+  </org>
+  <org xml:id="inqu01">
+    <orgName type="main">The Inquisition</orgName>
+  </org>
+  <org xml:id="izma01">
+    <orgName type="main">Izmaylovsky Regiment</orgName>
+  </org>
+  <org xml:id="jaco01">
+    <orgName type="main">Jacobins</orgName>
+  </org>
+  <org xml:id="jani01">
+    <orgName type="main">Janisaries</orgName>
+  </org>
+  <org xml:id="jesu01">
+    <orgName type="main">Jesuits</orgName>
+  </org>
+  <org xml:id="kalm01">
+    <orgName type="main">Kalmyks</orgName>
+    <note>referenced in letter 03606</note>
+  </org>
+  <org xml:id="lant01">
+    <orgName type="main">L'Ordre de Lanturelus</orgName>
+  </org>
+  <org xml:id="lezg01">
+    <orgName type="main">Lezgins</orgName>
+    <orgName type="alternative">Lesgy</orgName>
+  </org>
+  <org xml:id="maca01">
+    <orgName type="main">Macartney Embassy</orgName>
+    <note>First British diplomatic mission to China in 1793</note>
+  </org>
+  <org xml:id="mont01">
+    <orgName type="main">the Montenegrins</orgName>
+    <note>referenced in letter 02853</note>
+  </org>
+  <org xml:id="muft01">
+    <orgName type="main">Mufti</orgName>
+  </org>
+  <org xml:id="oper01">
+    <orgName type="main">Opera Bouffe de Mariano Mattei and Angiola Orecia</orgName>
+  </org>
+  <org xml:id="oper02">
+    <orgName type="main">Opéra-Comique</orgName>
+  </org>
+  <org xml:id="otto01">
+    <orgName type="main">Government of the Ottoman Empire</orgName>
+    <note>synecdoche = the Porte</note>
+  </org>
+  <org xml:id="past01">
+    <orgName type="main">Pastori de l'Arcadie</orgName>
+    <note>literary society in Rome</note>
+  </org>
+  <org xml:id="paul01">
+    <orgName type="main">Messieurs Pauli</orgName>
+    <note>Likely an architecture or sculpture company in Lubeck</note>
+  </org>
+  <org xml:id="pers01">
+    <orgName type="main">Persians</orgName>
+  </org>
+  <org xml:id="phil01">
+    <orgName type="main">Philanthropinum</orgName>
+    <bibl>https://www.wikidata.org/wiki/Q2085857</bibl>
+    <note>DE</note>
+  </org>
+  <org xml:id="russ03">
+    <orgName type="main">Russian Army</orgName>
+  </org>
+  <org xml:id="sanc01">
+    <orgName type="main">sans culotte</orgName>
+  </org>
+  <org xml:id="saxo01">
+    <orgName type="main">Saxons</orgName>
+  </org>
+  <org xml:id="sejm01">
+    <orgName type="main">Sejm of the Polish-Lithuanian Commonwealth</orgName>
+    <note>Bicameral parlament of the PLC</note>
+  </org>
+  <org xml:id="sena02">
+    <orgName type="main">Senate Typography</orgName>
+  </org>
+  <org xml:id="shih01">
+    <orgName type="main">Shihab Dynasty</orgName>
+    <note>Emirs of Mount Lebanon who took the power from the Druze. Although the Shihabs professed Sunni Islam, they showed sympathy with the Druzism.</note>
+  </org>
+  <org xml:id="slav02">
+    <orgName type="main">the Slavs</orgName>
+    <note>referenced in letter 02853</note>
+  </org>
+  <org xml:id="sluc01">
+    <orgName type="main">Sluck Confederation</orgName>
+    <note>formed in Slutsk on March 20, 1767 by the Protestant (Calvinist) szlachta of the Great Duchy of Lithuania, supported by Russian army</note>
+  </org>
+  <org xml:id="smet01">
+    <orgName type="main">Raymond and Théodor Smeth</orgName>
+    <note>Banking house in Amsterdam</note>
+  </org>
+  <org xml:id="sorb01">
+    <orgName type="main">Sorbonne, University of Paris</orgName>
+  </org>
+  <org xml:id="targ01">
+    <orgName type="main">Targowica Confederation</orgName>
+  </org>
+  <org xml:id="tsar01">
+    <orgName type="main">Tsarskoe Selo Estate Management Office</orgName>
+    <orgName type="alternative">Votchinnoe pravlenie Sela Tsarskago</orgName>
+    <bibl>No Wikidata/VIAF identifier available</bibl>
+  </org>
+  <org xml:id="tata01">
+    <orgName type="main">the Tatars</orgName>
+  </org>
+  <org xml:id="turk01">
+    <orgName type="main">the Turks</orgName>
+    <note>referenced in letter 02853</note>
+  </org>
+  <org xml:id="vien01">
+    <orgName type="main">Viennese Court</orgName>
+  </org>
+  <org xml:id="nobl01">
+    <orgName type="main">Nobles' Loan Bank</orgName>
+    <orgName type="alternative">Dvorianskii zaemny bank</orgName>
+    <bibl>no identifier</bibl>
+    <note>Kollmann, Nancy S., The Russian Empire 1450-1801 (Oxford: Oxford University Press, 2017)</note>
+  </org>
+  <org xml:id="magi01">
+    <orgName type="main">Chief Magistrate</orgName>
+    <orgName type="alternative">Glavnyi magistrat</orgName>
+    <bibl>no identifier</bibl>
+  </org>
+  <org xml:id="lans01">
+    <orgName type="main">Lanskoy Family</orgName>
+    <bibl>https://www.wikidata.org/wiki/Q3217622</bibl>
+  </org>
+  <org xml:id="jesu02">
+    <orgName type="main">Jesuit College in Polatsk</orgName>
+    <orgName type="alternative">Polotskii iesuitskii kollegium</orgName>
+    <bibl>https://www.wikidata.org/wiki/Q13133440</bibl>
+  </org>
+  <org xml:id="hosp02">
+    <orgName type="main">Catherine's Hospital</orgName>
+    <orgName type="alternative">Ekaterininskaia bol'nitsa / Staro-Ekaterininskaia bol'nitsa</orgName>
+    <bibl>https://www.wikidata.org/wiki/Q16678078</bibl>
+  </org>
+  <org xml:id="kara01">
+    <orgName type="main">Karatygin Family</orgName>
+    <bibl>https://www.wikidata.org/wiki/Q99247015</bibl>
+  </org>
+  <org xml:id="iamb01">
+    <orgName type="main">Cloth Factory in Iamburg</orgName>
+    <bibl>no identifier</bibl>
+    <note>Dnevnik A.V. Khrapovitskago. 1782-1793 (Saint-Petersburg: A.F. Bazunov, 1874)</note>
+  </org>
+  <org xml:id="krie01">
+    <orgName type="main">Kriegsrecht</orgName>
+    <bibl>no identifier</bibl>
+    <note>Entsiklopedicheskii slovar' Brokgauza i Efrona (Saint-Petersburg, 1890-1908)</note>
+  </org>
+  <org xml:id="assi01">
+    <orgName type="main">State Assignation Bank</orgName>
+    <orgName type="alternative">Gosudarstvennyi Assignatsionnyi bank</orgName>
+    <bibl>no identifier</bibl>
+    <note>Dnevnik A.V. Khrapovitskago. 1782-1793 (Saint-Petersburg: A.F. Bazunov, 1874)</note>
+  </org>
+  <org xml:id="orph01">
+    <orgName type="main">Saint-Petersburg's Orphanage</orgName>
+    <orgName type="alternative">Sankt-Peterburgskii Imperatorskii vospitatel'nyi dom</orgName>
+    <bibl>no identifier</bibl>
+    <note>Frumenkova, Tatiana, G., Predystoriia i nachal'naia istoriia Sant-Peterburgskogo vospitatel'nogo doma (1763-1796) in Universum: Vestnik Gertsenskogo universiteta, no. 4, 2007, pp. 65-71.</note>
+  </org>
+  <org xml:id="marc01">
+    <orgName type="main">Moscow main archive (Moskovskii arkhiv kollegii inostrannykh del)</orgName>
+    <bibl>https://www.wikidata.org/wiki/Q16678043</bibl>
+  </org>
+</listOrg>
+
+      </body>
+  </text>
+</TEI>
