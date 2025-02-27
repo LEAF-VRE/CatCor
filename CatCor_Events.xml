@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Correspondence of Catherine the Great - placeography</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2025-02-27" who="djakacki">New TEI-All structure created (Jakacki) </change>
+      </revisionDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <listEvent xmlns="http://www.tei-c.org/ns/1.0">
+
+  <event when-custom="1789-09-30" xml:id="akker01">
+    <label>Taking of Belgorod on the Dniester (Белгород Днестровский)/Akkerman
+			(Аккерман)</label>
+    <note type="editorial">Cossack ataman M.I. Platov had been sent to negotiate with the
+			Ottomans in the fortress, but when the negotiations were dragged on and the Turks shot
+			at the Russian, Potemkin had time to come up with reinforcements, bombard the fortress,
+			and force the three-tailed pasha Taifur to surrender, alongside his garrison of
+			3,000.</note>
+    <bibl><author>V.S. Lopatin</author>, <title ref="works.xml#pot01">Ekaterina II i G.A.
+				Potemkin</title>, <biblScope unit="page">p. 888</biblScope>.</bibl>
+  </event>
+  <event when="1789-05" xml:id="allia01">
+    <label>Renewal of the alliance between Austria and Russia</label>
+    <note type="editorial">Catherine and Joseph renewed their alliance, first contracted in May
+			1781, by the same means as before: an exchange of autograph letters, rather than a
+			formal treaty. Joseph's formal letter was dated 20 May, Catherine's 30 May 1789.</note>
+    <bibl><title ref="works.xml#jos01">Joseph II. und Katharina von Russland</title>, <biblScope unit="page">pp. 333-36</biblScope>.</bibl>
+  </event>
+  <event when="1781-05" xml:id="allia02">
+    <label>Alliance between Austria and Russia</label>
+    <bibl><author>Isabel de Madariaga</author>, <title level="a" ref="works.xml#madariaga02">'The Secret Austro-Russian Treaty of 1781'</title>, <title level="j">The Slavonic
+				and East European Review</title><biblScope unit="volume">38</biblScope>.<biblScope unit="issue">90</biblScope>
+				(<date>December 1969</date>), <biblScope unit="page">114-45</biblScope></bibl>
+  </event>
+  <event from="1775" to="1783" xml:id="ameri01">
+    <label>American Revolution</label>
+  </event>
+  <event from-custom="1765-08-04" to-custom="1787-04-30" xml:id="anglo01">
+    <label>Anglo-Russian commercial treaty of 1765</label>
+    <note type="editorial">Signed 4/15 April 1765. Permitted to lapse by William Pitt in April
+			1787.</note>
+  </event>
+  <event from-custom="1793-03-14" to-custom="1793-03-25" xml:id="anglo02">
+    <label>Anglo-Russian commercial treaty of 14/25 March 1793.</label>
+    <note type="editorial">Revolutionary France under the Convention declared war on Great
+			Britain on 21 January/1 February 1793. Six days later, Russia began negotiating a new
+			alliance with Britain's envoy to St. Petersburg. <ref target="people.xml#vor01">Semen
+				Vorontsov</ref> concluded a renewal of the <ref target="events.xml#ang01">treaty of
+				1765</ref> on 14/25 March 1793 in London. It was accompanied by a second treaty: the
+			two sides agreed to support one another in fighting France, to make peace only jointly,
+			to exclude all commerce with France, and to prevent France from trading with neutral
+			nations. This final provision contradicted Catherine's former policy of <ref target="arm01">Armed Neturality</ref>.</note>
+    <bibl><author>Isabel de Madariaga</author>, <title ref="works.xml#rus03">Russia in the Age
+				of Catherine the Great</title>, <biblScope unit="page">pp. 442-43</biblScope>.</bibl>
+  </event>
+  <event from="1780" to="1783" xml:id="armed01">
+    <label>Catherine's policy of Armed Neutrality</label>
+    <bibl><author>Isabel de Madariaga</author>, <title>Britain, Russia and the Armed Neutrality
+				of 1780</title> (<pubPlace>London</pubPlace>, <date>1963</date>)</bibl>
+  </event>
+  <event when-custom="1761-12-25" xml:id="ascen01">
+    <label>Peter III's ascension to the throne as emperor</label>
+  </event>
+  <event when-custom="1762-06-28" xml:id="ascen02">
+    <label>Catherine's ascension to the throne</label>
+  </event>
+  <event when-custom="1763-10-05" xml:id="augus01">
+    <label>Death of Augustus III, King of Poland</label>
+  </event>
+  <event from="1788-08" to="1788-11" xml:id="banat01">
+    <label>Ottoman invasion of the Banat</label>
+    <note type="editorial">The Ottoman army led by the Grand Vizir posed a very serious threat
+			to Joseph II when he invaded this Habsburg territory, and Joseph sought a way of freeing
+			himself from the Russian alliance that had drawn him into the war. By the end of 1788,
+			though, the Ottomans had retreated from the region.</note>
+    <bibl><author>Derek Beales</author>, <title ref="works.xml#joseph02">Joseph II</title>,
+				<biblScope unit="volume">ii</biblScope>, <biblScope unit="page">pp.
+			572-74</biblScope>.</bibl>
+  </event>
+  <event from="1778-07" to="1779-05" xml:id="bavar01">
+    <label>War of the Bavarian Succession</label>
+  </event>
+  <event from="1789-09-15" to="1789-10-08" xml:id="belgr01">
+    <label>Siege of Belgrade</label>
+    <note type="editorial">Ended in an Austrian victory under the leadership of General Laudon.
+			Catherine's correspondent, the <ref target="lig01">prince de Ligne</ref>, was
+			present.</note>
+  </event>
+  <event when-custom="1789-11-03" xml:id="bende01">
+    <label>Surrender of Bender to Prince Potemkin</label>
+    <note type="editorial">Potemkin's army had surrounded the fortress of Bender from 29 October
+			1789. When his army was preparing to storm the fortress, on 3 November, the garrison
+			surrendered unconditionally. The Russians took the fortress, 300 pieces of artillery,
+			extensive supplies; the garrison of 16,000 people, including a three-tailed pasha and
+			Ahmet Pasha, and up to 22,000 inhabitants. Only 10 Russians were wounded in the taking
+			of Bender. Potemkin announced the victory to Catherine on 4 November with the words:
+			'Вот, матушка Всемилостивейшая Государыня, и Бендеры у ног Ваших' ('Here, little mother,
+			All-Merciful Sovereign, Bender too is at your feet'). Catherine rewarded Potemkin with a
+			laurel crown made of gold. For their epistolary exchange on the topic, see Catherine's
+			letter to Potemkin of <ref target="letter-88">25 November 1789</ref>.</note>
+    <bibl><author>Petrov</author>, <title ref="works.xml#vtoray01">Vtoraya turetskaya
+				voina</title>, <biblScope unit="volume">ii</biblScope>, <biblScope unit="page">pp.
+				84-88</biblScope>.</bibl>
+    <bibl><title ref="works.xml#eka01">Ekaterina II i G.A. Potemkin</title>, <biblScope unit="page">p. 381</biblScope>.</bibl>
+  </event>
+  <event when-custom="1744-06-29" xml:id="betro01">
+    <label>Catherine's betrothal to the future Peter III</label>
+  </event>
+  <event when-custom="1763" xml:id="biron01">
+    <label>Restoration of Ernst Johann von Biron as duke of Courland</label>
+  </event>
+  <event when-custom="1767-05-07" xml:id="birth01">
+    <label>Birth of Princess Frederica Charlotte of Prussia</label>
+  </event>
+  <event from="1789-01" to="1790-12" xml:id="braba01">
+    <label>Brabant Revolution</label>
+  </event>
+  <event when="1766" xml:id="brita01">
+    <!-- each event should have a <label> -->
+    <label>Commercial treaty with Great Britain</label>
+    <!-- notes and bibliographic references optional -->
+    <note type="editorial">In 1766 Catherine agreed to a commercial treaty with Great Britain
+			but stopped short of a full military alliance.</note>
+    <listBibl>
+      <bibl><author>Rodger, NAM</author> (<date>2005</date>). <!-- you could include a @ref on title to point to this in the works.xml file -->
+				<title>Command of the Ocean: A Naval History of Britain, 1649–1815</title>.
+					<publisher>W. W. Norton &amp; Company</publisher>. <idno type="ISBN">978-0-393-06050-8</idno>, <biblScope unit="page">p. 328</biblScope><note type="editorial">bibliographic notes</note></bibl>
+    
+			<!-- more optional bibl elements -->
+		</listBibl>
+  </event>
+  <event when-custom="1789-09-13" xml:id="cause01">
+    <label>Battle at Căuşeni</label>
+    <note type="editorial">Colonel Platov led some Cossacks from the left bank of the Dniepr and
+			a detachment of mounted Jägers in an attack on the Ottoman entrenchments. Some 700
+			Ottoman troops were killed and 100 taken prisoner, including the officer in command at
+			Căuşeni, the Beylerbey of Anatolia.</note>
+    <bibl><author>Petrov</author>, <title ref="works.xml#vtoray01">Vtoraya turetskaya
+				voina</title>, <biblScope unit="volume">ii</biblScope>, <biblScope unit="page">pp.
+				76-77</biblScope>.</bibl>
+  </event>
+  <event from-custom="1770-06-24" to-custom="1770-06-26" xml:id="chesm01">
+    <label>Battle of Chesme</label>
+  </event>
+  <event when-custom="1762-09-22" xml:id="coron01">
+    <label>Catherine II's coronation</label>
+  </event>
+  <event when-custom="1762-06-28" xml:id="coupd01">
+    <label>Catherine's coup d'état</label>
+  </event>
+  <event when="1787" xml:id="crime01">
+    <label>Catherine's journey to the Crimea</label>
+  </event>
+  <event from="1773-10-08" to="1774-03-05" xml:id="dider01">
+    <label>Denis Diderot's visit to St. Petersburg</label>
+  </event>
+  <event from-custom="1772-07-27" to-custom="1772-08-28" xml:id="focsa01">
+    <label>Focșani Congress</label>
+    <label>Фокшанский конгресс</label>
+  </event>
+  <event when-custom="1789-07-21" xml:id="focsa02">
+    <label>Battle of Focșani</label>
+  </event>
+  <event from="1789" to="1799" xml:id="frenc01">
+    <label>The French Revolution</label>
+  </event>
+  <event when-custom="1789-09-14" xml:id="gadzh01">
+    <label>Taking of Gadzhibei Fortress (Odessa)</label>
+    <note type="editorial">The attack was led by José de Ribas. Over 200 Ottoman soldiers were
+			killed; the 66-person garrison surrendered with 12 canon, 8 standards, 2 flags, and
+			various military stores. Russian losses were minimal.</note>
+    <bibl><author>Petrov</author>, <title ref="works.xml#vtoray01">Vtoraya turetskaya
+				voina</title>, <biblScope unit="volume">ii</biblScope>, <biblScope unit="page">pp.
+				77-79</biblScope>.</bibl>
+  </event>
+  <event when-custom="1788-12-19" xml:id="gangu01">
+    <label>Victory at Gangura, near Bender, in Moldova.</label>
+    <note type="editorial">The commanding general was <ref target="people.xml#kam01">Mikhail
+				Kamensky</ref>. It was a very bloody victory, and a large number of civilians were
+			slaughtered.</note>
+  </event>
+  <event from="1700" to="1721" xml:id="great01">
+    <label>Great Northern War</label>
+    <note type="editorial">Between Peter I and Charles XII of Sweden. Despite initial defeats,
+			Russia's victory asserted the empire's place as a major player on the European
+			stage.</note>
+  </event>
+  <event from="1773-09" to="1774-04" xml:id="grimm01">
+    <label>Friedrich Melchior Grimm's first visit to St. Petersburg</label>
+  </event>
+  <event when="1777" xml:id="gusta01">
+    <label>Gustav III of Sweden's visit to St. Petersburg</label>
+  </event>
+  <event when="1772-08" xml:id="gusta02">
+    <label>Gustav III's of Sweden's coup d'état</label>
+    <note type="editorial">Established absolute monarchy in Sweden, much to the chagrin of
+			Russia, which relied on the factionalism of the Swedish parliament to keep this Northern
+			neighbour weak.</note>
+  </event>
+  <event from="1770" to="1771-01" xml:id="henry01">
+    <label>Prince Henry of Prussia's first visit to St. Petersburg</label>
+  </event>
+  <event when="1776" xml:id="henry02">
+    <label>Prince Henry of Prussia's second visit to St. Petersburg</label>
+  </event>
+  <event when-custom="1788-07-06" xml:id="hogla01">
+    <label>Battle of Hogland</label>
+    <label xml:lang="ru">Гогландское сражение</label>
+  </event>
+  <event when="1763-02-15" xml:id="huber01">
+    <label>Treaty of Hubertusberg</label>
+    <note type="editorial">One of two treaties concluding the Seven Years' War, along with the
+			Treaty of Paris. Signed by Prussia, Austria, and Saxony, the treaty restored more or
+			less the pre-war territorial status quo.</note>
+  </event>
+  <event when="1768" xml:id="inocu01">
+    <label>Catherine's inoculation against smallpox</label>
+  </event>
+  <event when-custom="1790-12-11" xml:id="izmai01">
+    <label>Taking of <ref target="places.xml#izm01">Izmail</ref></label>
+  </event>
+  <event when="1773" xml:id="karol01">
+    <label>Karoline of Hesse-Darmstadt's visit to St. Petersburg</label>
+    <note type="editorial">The landgrafin visited with her three daughters in order to arrange
+			the marriage of Wilhelmine, the future Grand Duchess Natalya Alekseevna, to Grand Duke
+			Paul. The group traveled via Berlin, assuring themselves of Frederick II's support,
+			before being taken on three Russian navy ships from Lübeck to Reval (Tallinn). They met
+			Catherine at Gatchina, and Paul joined the party on the way to Tsarskoe Selo
+					(<bibl><author>McGrew</author>, <title ref="works.xml#mcgrew01">Paul I</title>,
+					<biblScope unit="page">pp. 83-84</biblScope></bibl>).</note>
+  </event>
+  <event when="1788-09" xml:id="khoti01">
+    <label>Taking of Khotin</label>
+  </event>
+  <event when-custom="1789-05-31" xml:id="kirob01">
+    <label>Battle at Kiro</label>
+    <note type="editorial">Small skirmish opening the land campaign in Swedish Finland in 1789.
+			Mikhelson attacked 1000 Swedes with about 6000 Russian troops. Cossacks and Bashkirs in
+			Russian service chased the defeated and frightened Swedes.</note>
+  </event>
+  <event when-custom="1774-07-10" xml:id="kuchu01">
+    <label>Treaty of Kuchuk Kainardzhi</label>
+    <note type="editorial">Concluded Catherine's first Russo-Turkish War (1768-1774). Negotiated
+			by Field-Marshal Petr Rumyantsev. The Russians received their highest demands: although
+			they lost Ochakov, they gained Kerch, Yenikale, Kinburg, and the coastline between the
+			Bug and Dniepr Rivers. They also obtained shipping rights on the Black Sea; although
+			they could not keep warships, they were not prevented from building a battle fleet or
+			from arming merchant ships. The Ottomans were also to pay Russia 4.5 million rubles of
+			indemnity.</note>
+    <bibl><author>Isabel de Madariaga</author>, <title ref="works.xml#rus03">Russia in the Age
+				of Catherine the Great</title>, <biblScope unit="page">p. 235</biblScope>.</bibl>
+  </event>
+  <event when="1773-10-10" when-custom="1773-09-29" xml:id="marri01">
+    <label>Marriage of Grand Duke Paul to Grand Duchess Natalya Alekseevna (née Wilhelmine of
+			Hesse-Darmstadt).</label>
+    <note type="editorial">The marriage was initially a happy one, with Catherine writing of her
+			son to Mme Bielke on 6 October 1773: 'Le voilà donc en ménage; il prétend vivre
+			bourgeoisement, il ne quitte pas d'un pas son épouse, et cela fait la plus belle amitié
+			du monde. Dieu veuille qu'elle soit de durée, car, comme dit l'autre, la vie de l'homme
+			est longue' (<bibl><title ref="works.xml#edition02">SIRIO</title>, <biblScope unit="volume">xiii</biblScope>, <biblScope unit="page">p. 361</biblScope></bibl>). But it
+			quickly deteriorated with Catherine's disapproval of the grand duchess and with rumours
+			that the latter was having an affair with Andrey Razumovsky.</note>
+  </event>
+  <event when="1776-10-07" when-custom="1776-09-26" xml:id="marri02">
+    <label>Marriage of Grand Duke Paul to Grand Duchess Maria Fedorovna (née Sophie Dorothea of
+			Württemberg)</label>
+  </event>
+  <event when="1785-06" xml:id="mosco01">
+    <label>Surprise journey to Moscow</label>
+    <note type="editorial">Catherine traveled to Moscow with her court and several foreign
+			ambassadors, whom she hoped would write home favourably about what they saw. This was an
+			unexpected extension of a tour to inspect the construction of a canal between the Baltic
+			and the Volga, visiting Lake Ladoga and Vyshnii Volochek. Catherine, her court, and the
+			ambassadors produced several jocular works of society literature relating to the
+			journey.</note>
+  </event>
+  <event when="1776-04-26" when-custom="1776-04-15" xml:id="natal01">
+    <label>Death of Grand Duchess Natalya Alekseevna</label>
+  </event>
+  <event when="1788-12-17" when-custom="1788-12-06" xml:id="ochak01">
+    <label>Taking of Ochakov</label>
+    <note type="editorial">After the Turkish navy had been defeated near Ochakov on 1 July 1788,
+			Grigory Potemkin's army began a siege of the fortress. Aleksandr Suvorov was wounded in
+			the neck during a skirmish outside Ochakov on 27 July. Although Potemkin had planned to
+			storm the fortress since November, bad weather had hindered operations. In the
+			successful attack on 6 December, some 9,500 Turks and about 1,000 Russians were killed.
+			Catherine rewarded Potemkin with a first-class order of St. George, a diamond-studded
+			sword, 100,000 rubles, and the famous phrase in her letter of 16 December 1788: 'За ушки
+			взяв обеими руками, мысленно тебя цалую, друг мой сердечный Князь Григорий
+			Александрович' ('taking you by their ears with both hands, I kiss you in my thoughts, my
+			dear friend Prince Grigory Aleksandrovich'. (<bibl><author>A.N. Petrov</author>, <title ref="works.xml#vtoray01">Vtoraya turetskaya voina v tsarstvovanie imperatritsy
+					Ekateriny II. 1787-1791 gg.</title>, <biblScope unit="volume">i</biblScope>,
+					<biblScope unit="page">pp. 183-204</biblScope></bibl>.)</note>
+  </event>
+  <event from-custom="1789-07-14" to-custom="1789-07-16" xml:id="oland01">
+    <label>Battle of Öland</label>
+    <note type="editorial">According to Aleksandr Brückner, neither the Russians nor the Swedes
+			emerged victorious from this battle. Both sides were unprepared and hesitant to engage
+			in full battle. The Russians achieved their aim of uniting Admiral <ref target="people.xml#chi01">Chichagov</ref>'s fleet with Vice-Admiral <ref target="people.xml#koz01">Kozlyaninov</ref>'s on 21 July/1 August. Yet it was the
+			Swedes, not the Russians, who viewed the battle as successful enough to merit a 'Te
+			Deum'. <ref target="people.xml#khr01">Khrapovitsky</ref>'s <ref target="works.xml#dne01">diary</ref> entry on the matter highlight Catherine's frustration with her
+			admirals' failure to take offensive action: recording the report received on 6 August
+			1789, he added Catherine's reponse: 'Замечено, что не хотел сам Чичагов драться, желая
+			лучше охранять берега Лифляндские, хотя ему точно предписано искать и атаковать
+			неприятеля. Je crois que tout le monde est d'accord avec le Roi de Suède. Le Prince de
+			Nassau n'a presque rien fait. Pouchkin est dans l'inaction. Дсд. [досада]. Пчт. слз. н.
+			глзх. [почти слезы на глазах].' ('Commented that Chichagov himself did not want to
+			fight, preferring to guard the coast of Lifland, although he was expressly ordered to
+			seek out and attack the enemy. I think everyone is in agreement with the King of Sweden.
+			Prince Nassau has done almost nothing. Pouchkin is inactive. Annoyance. Almost tears in
+			her eyes'). (<bibl><author>Brückner</author>, <title ref="works.xml#voinar01">Voina
+					Rossii so Shvetsiei</title>, <biblScope unit="page">pp. 190-94</biblScope></bibl>;
+					<bibl><author>Khrapovitsky</author>, <title ref="works.xml#dne01">Dnevnik</title>, <biblScope unit="page">p. 302</biblScope></bibl>.)</note>
+  </event>
+  <event when-custom="1789-06" xml:id="paros01">
+    <label>Battle of Parosalmi</label>
+    <note type="editorial">Catherine's secretary Khrapovitsky noted on 7 June 1789: '<ref target="people.xml#mus02">Гр. В. П. М. Пушкин</ref> [граф Валентин Платонович Мусин]
+			из Вильманстранда от 5 Июня прислал неприятное донесение, что Михельсон 1-го Июня
+			выступя из Христины, в 3 часа по полуночи, со всеми войсками дошел до переправы,
+			называемой Паросальма и тут претерпел знатный урон; войска отступили в Христину.
+			Паросальма в шести верстах от Сант-Михеля. Бар. <ref target="people.xml#spr01">Спренгпортен</ref> весь изранен. Двадцать семь лет такого известия не получала!'
+				('<ref target="people.xml#mus02">Ct V.P.M. Pushkin</ref> [Count Valentin Platonovich
+			Musin] sent from Vilmanstrand on 5 June the unpleasant news that Mikhelson on the 1st of
+			June, leaving Khristina, at 3 a.m., with all his troops arrived at the crossing called
+			Parosalma and there suffered serious losses. The troops retreated into Khristina.
+			Parosalma is 6 versts from Sant-Mikhel. Bar. Sprengporten (Baron Sprengtporten) is
+			wounded all over. I (Catherine) have never received such news in twenty seven years!'
+					(<bibl><title ref="works.xml#dne01">Dnevnik A.V. Khrapovitskago</title>,
+					<biblScope unit="page">p. 288</biblScope></bibl>.) </note>
+  </event>
+  <event when="1772" xml:id="parti01">
+    <label>First partition of Poland</label>
+    <note type="editorial">The partition treaty between Prussia and Russia was signed on 6/17
+			February 1772; Austria joined on 25 July/5 August 1772.</note>
+  </event>
+  <event when="1788-12-29" xml:id="prote01">
+    <label>Protest against the Third Resolution</label>
+    <note type="editorial">On 29 December 1788, in the midst of the Regency Crisis, a group of
+			Opposition Lords filed a protest against the Third Resolution, which was passed in the
+			House of Lords and determined that the Lords and Commons 'should determine on the Means
+			whereby the Royal Assent may be given in Parliament to such Bill as may be passed by the
+			Two Houses of Parliament, respecting the Exercise of the Powers and Authorities of the
+			Crown, in the Name and on the Behalf of the King during the Continuance of His Majesty's
+			present Indisposition.' (The text of the resolution and of the protest may be found <ref target="http://www.british-history.ac.uk/report.aspx?compid=116844">here</ref>.)
+			Catherine supported the protest, which insisted on a regency headed by the <ref target="people.xml#geo03">prince of Wales</ref>, as royal authority should not be
+			exercised by Parliament alone. <ref target="people.xml#har01">James Harris</ref>, first
+			earl of Malmesbury and Catherine's old enemy (for his opposition to her policy of Armed
+			Neutrality and for his arrangement of an alliance between Britain and Prussia), signed
+			the protest, thus marking a move away from <ref target="people.xml#pit01">Pitt</ref>,
+			Catherine's opponent.</note>
+  </event>
+  <event when="1764" xml:id="pruss01">
+    <label>Russo-Prussian Alliance</label>
+  </event>
+  <event when="1780" xml:id="pruss02">
+    <label>Russo-Prussian alliance lapsed</label>
+  </event>
+  <event from="1773-09" to="1774-09" xml:id="pugac01">
+    <label>Pugachev Rebellion</label>
+  </event>
+  <event when="1774-09" xml:id="pugac02">
+    <label>Pugachev caught</label>
+  </event>
+  <event from="1788-10" to="1789-02" xml:id="regen01">
+    <label>Regency crisis</label>
+    <note type="editorial">When George III fell gravely ill and fell victim to bouts of madness
+			in late October and early November 1788, the dissolute prince of Wales (the future
+			George IV) was proposed as regent. His political support came from Charles James Fox;
+			George III's prime minister, William Pitt, opposed the plan for a regency and supported
+			Queen Charlotte instead. Hoping to do remove Pitt from power and thus defeat his
+			anti-Russian policies, Catherine strongly supported Fox and the proponents of a
+			regency.</note>
+    <bibl><author>T.C.W. Blanning and Carl Haase</author>, <title level="a">'George III,
+				Hannover and the Regency Crisis'</title>, in <title level="m">Knights Errant and
+				True Englishmen: British Foreign Policy 1600-1800</title>, ed. by <editor>Jeremy
+				Black</editor> (<pubPlace>Edinburgh</pubPlace>: <publisher>John Donald</publisher>,
+				<date>1989</date>, <biblScope unit="page">pp. 135-50</biblScope>.</bibl>
+    <bibl><author/>, <title>The Regency Crisis and the Whigs, 1788-9</title>
+				(<pubPlace>Cambridge</pubPlace>: <publisher>Cambridge University Press</publisher>,
+				<date>1963</date>)</bibl>
+  </event>
+  <event when="1790-07-27" xml:id="reich01">
+    <label>Treaty of Reichenbach</label>
+  </event>
+  <event when-custom="1789-09-11" xml:id="rymni01">
+    <label>Battle of Rymnik</label>
+    <note type="editorial">For this victory over the Turks, Russian General <ref target="people.xml#suv01">Aleksandr Suvorov</ref> received a diamond snuffbox and
+			the title of count of the Holy Roman Empire from <ref target="people.xml#jos01">Joseph
+				II</ref>. He received the title of count, the surname of 'Rymniksky', and a
+			diamond-studded sword. <ref target="people.xml#cat01">Catherine</ref> sent a valuable
+			snuffbox and a diamond-studded sword to the Austrian general, the <ref target="people.xml#cob01">prince of Saxe-Cobourg</ref>. Joseph II made him a
+			field-marshal.</note>
+    <bibl><author>Petrov</author>, <title ref="works.xml#vtoray01">Vtoraya turetskaya
+				voina</title>, <biblScope unit="volume">ii</biblScope>, <biblScope unit="page">pp.
+				59-75</biblScope>.</bibl>
+  </event>
+  <event from="1754" to="1763" xml:id="seven01">
+    <label>Seven Years' War</label>
+  </event>
+  <event when-custom="1789-08-13" xml:id="svens01">
+    <label>First Battle of Svensksund/Rochensalm</label>
+    <note type="editorial">The Russian Admiral Kruse attacked the Swedish flotilla in the
+			Svensksund, at the mouth of the Kymi River at Kotka on the Gulf of Finland, with greater
+			numbers of ships, but he was pushed back by the Swedes under Admiral Ehrensvärd, who
+			occupied a more advantegous position in the strait. Prince Karl Friedrich von
+			Nassau-Siegen then brought reinforcements: although the Swedes had almost no ammunition
+			left, Gustav III ordered Ehrensvärd to attack. The Russians captured 33 Swedish ships
+			and forced the Swedes to flee to the fortress of Svartsholm. Ehrensvärd told Gustav: 'I
+			have the honour of informing your Majesty that you have no longer a coast flotilla'.
+			Although the king did not blame Ehrensvärd for the loss and graciously awarded to him
+			the Order of the Sword, usually given only to victorious military leaders, the admiral
+			retired. This naval success then allowed the Russian to land in Sweden, to capture the
+			fortress of Hogbars, and then to destroy the rest of the Swedish flotilla at Barö
+			Sound.</note>
+    <bibl><author>Robert Nisbet Bain</author>, <title ref="works.xml#gustav01">Gustavus III and
+				His Contemporaries</title>, <biblScope unit="volume">ii</biblScope>, <biblScope unit="page">pp. 87-88</biblScope>.</bibl>
+  </event>
+  <event when="1789" xml:id="swedi01">
+    <label>Swedish diet of 1789</label>
+    <note type="editorial">This was the first time that Gustav III of Sweden had called together
+			the Riksdag since 1786. It resulted in a new change in government structure in the
+			king's favour.</note>
+    <bibl><author>Brückner</author>, <title ref="works.xml#konfed01">'Konfederatsiya v Anyala v
+				1788 godu'</title>.</bibl>
+  </event>
+  <event from="1788" to="1790" xml:id="swedi02">
+    <label>Russo-Swedish War</label>
+  </event>
+  <event when="1779-05-13" xml:id="tesch01">
+    <label>Peace of Teschen</label>
+    <note type="editorial">Peace treaty that ended the War of the Bavarian Succession, brought
+			about by Catherine and considered a great diplomatic victory for her.</note>
+  </event>
+  <event from="1779-03" to="1779-05" xml:id="tesch02">
+    <label>Congress of Teschen</label>
+    <note type="editorial">Congress which culminated in the signing of the Peace treaty of
+			Teschen</note>
+  </event>
+  <event to="1791" from="1788" xml:id="tripl01">
+    <label>Triple alliance between Great Britain, Prussia, and the United Provinces</label>
+    <note type="editorial">Designed by William Pitt the Younger</note>
+  </event>
+  <event from="1768" to="1774" xml:id="turki01">
+    <label>First Russo-Turkish War</label>
+  </event>
+  <event from-custom="1787-08-13" to="1792" xml:id="turki02">
+    <label>Second Russo-Turkish War</label>
+    <note type="editorial">Began with the Ottoman declaration of war on Russia on 13 August
+			1787.</note>
+  </event>
+  <event when-custom="1782-04-08" xml:id="ustav01">
+    <label>Police Ordinance</label>
+    <note>Called the 'Устав благочиния, или полицейский', this legal document set up the Russian
+			police system, listed punishments for various offences, and offered guiding moral
+			principles for Russian subjects.</note>
+  </event>
+  <event when="1767" xml:id="volga01">
+    <label>Catherine's journey down the Volga, during which she and her courtiers translated
+			Marmontel's 'Bélisaire' into Russian.</label>
+  </event>
+  <event when="1657" xml:id="wehla01">
+    <label>Treaty of Wehlau signed by the Brandenburg-Prussian and Polish-Lithuanian envoys in
+			Wehlau</label>
+  </event>
+  <event when="1748-10-18" xml:id="aixla01">
+    <label>Treaty of Aix-la-Chappelle (Treaty of Aachen)</label>
+    <bibl>https://www.wikidata.org/wiki/Q156086</bibl>
+    <note>Ended the War of Austrian Succession</note>
+  </event>
+  <event xml:id="allia03">
+    <label>Alliance between Sweden and UK</label>
+    <note>Often referred to as "Gegu"</note>
+  </event>
+  <event xml:id="allia04">
+    <label>Alliance between France and the United Provinces (Holland)</label>
+  </event>
+  <event xml:id="assas01">
+    <label>Assassination of Gustave III</label>
+  </event>
+  <event from="1771-07-06" to="1772-04-08" xml:id="austr01">
+    <label>Secret treaty between Austria and the Ottomans in which Austria received land concessions and the Ottomans received subsidies</label>
+  </event>
+  <event when="1779" xml:id="aynal01">
+    <label>Treaty of Aynalıkavak</label>
+    <bibl>https://www.wikidata.org/wiki/Q7836974</bibl>
+    <note>Catherine refers to it as the Convention d'Aly-Kavak ; treaty entered into b/w Russia and Ottomans intended to resolve ongoing conflict over Crimea</note>
+  </event>
+  <event xml:id="basel01">
+    <label>Peace Treaty between Prussia and France</label>
+  </event>
+  <event xml:id="belgr02">
+    <label>Treaty of Belgrade</label>
+  </event>
+  <event from="1752" to="1754" xml:id="bouff01">
+    <label>Querelle des Bouffons</label>
+    <bibl>https://www.wikidata.org/wiki/Q186899</bibl>
+  </event>
+  <event from="1772-10-29" to="1773-05-09" xml:id="bucha01">
+    <label>Bucharest peace negotiations</label>
+    <note>as resumed Focsani congress</note>
+  </event>
+  <event xml:id="coron02">
+    <label>Coronation of King Louis XVI</label>
+  </event>
+  <event xml:id="crime02">
+    <label>Annexation of Crimea</label>
+  </event>
+  <event xml:id="cullo01">
+    <label>Battle of Culloden, Scotland</label>
+  </event>
+  <event xml:id="damie01">
+    <label>Battle at the Damietta Castle</label>
+    <note>under the command of Panaioti Aleksiano</note>
+  </event>
+  <event xml:id="decla01">
+    <label>France declares war on Austria</label>
+  </event>
+  <event from="1792" to="1797" xml:id="first01">
+    <label>War of the First Coalition - first period of the French Revolutionary wars</label>
+  </event>
+  <event xml:id="fleet01">
+    <label>Catherine set off to Peterhof on her yacht 'Saint Catherine' to inspect her fleet in the Gulf of Finland</label>
+    <note type="source">as noted in Correspondance de Falconet avec Catherine II, 1767-1778, avec une introduction et des notes par Louis Réau.</note>
+  </event>
+  <event from="1775-04-01" to="1775-05-30" xml:id="flour01">
+    <label>Flour War, Guerre des farines</label>
+    <bibl>https://www.wikidata.org/wiki/Q1635316</bibl>
+    <note>Riots in France following the rise in grain prices</note>
+  </event>
+  <event xml:id="fonta01">
+    <label>Treaty of Fontainbleau</label>
+    <note>between Joseph II and the States-General of the United Provinces</note>
+  </event>
+  <event xml:id="frenc02">
+    <label>Franco-Russian commercial treaty</label>
+  </event>
+  <event when="1764" xml:id="hetma01">
+    <label>Elimination of the Cossack Hetmanate</label>
+  </event>
+  <event when="1790-02-20" xml:id="josep01">
+    <label>Death of Joseph II</label>
+  </event>
+  <event xml:id="giurg01">
+    <label>Truce of Giurgiu</label>
+  </event>
+  <event when="1771" xml:id="kafa01">
+    <label>Battle of Kafa</label>
+    <note>WRONG FORMAT CODE, ALSO IN LETTER XML</note>
+  </event>
+  <event xml:id="kagul01">
+    <label>Battle of Kagul</label>
+    <note type="source">as noted in Correspondance de Falconet avec Catherine II, 1767-1778, avec une introduction et des notes par Louis Réau.</note>
+  </event>
+  <event from="1794-03-24" to="1794-11-16" xml:id="kosci01">
+    <label>Kościuszko Uprising</label>
+    <bibl>https://www.wikidata.org/wiki/Q849176</bibl>
+  </event>
+  <event when="1770-07-07" xml:id="larga01">
+    <label>Battle of Larga</label>
+    <bibl>https://www.wikidata.org/wiki/Q2456110</bibl>
+  </event>
+  <event xml:id="leipz01">
+    <label>Student unrest in Leipzig, Fedor Ushakov was involved</label>
+    <note type="source">letter-01164</note>
+  </event>
+  <event xml:id="marri03">
+    <label>Marriage of Mme Clotilde</label>
+    <note>POSSIBLE DUPLICATE OF marri04</note>
+    <note type="source">as noted in the correspondence between Catherine and Grimm and between Grimm and Nesselrode</note>
+  </event>
+  <event when="1775-08-21" xml:id="marri04">
+    <label>Marriage of Mme Clotilde of France to Charles Emmanuel IV of Sardinia</label>
+  </event>
+  <event when="1764-07-06" xml:id="mirov01">
+    <label>Mirovich Affair</label>
+    <note>POSSIBLE DUPLICATE OF schli01</note>
+  </event>
+  <event when="1775" xml:id="mosco02">
+    <label>Catherine's trip to Moscow</label>
+  </event>
+  <event when="1787" xml:id="mulov01">
+    <label>Mulovsky expedition</label>
+    <bibl>https://www.wikidata.org/wiki/Q6934320</bibl>
+    <note>expedition planned by Catherine II that never occurred due to the second Russo-Turkish war</note>
+  </event>
+  <event from="1784" to="1785" xml:id="neckl01">
+    <label>Affair of the Queen's Necklace</label>
+    <bibl>https://www.wikidata.org/wiki/Q465744</bibl>
+  </event>
+  <event when="1743-08-30" xml:id="abotre01">
+    <label>Treaty of Abo</label>
+    <bibl>https://www.wikidata.org/wiki/Q1141485</bibl>
+    <note>Sometimes called Neustadt and Abo or Treaty of Turku; peace treaty signed between Russian Empire and Sweden in Turku (Abo) in 1743</note>
+  </event>
+  <event xml:id="norma01">
+    <label>Norman Conquest</label>
+  </event>
+  <event from="1770-02-01" to="1770-06-30" xml:id="orlov01">
+    <label>Orlov Revolt</label>
+    <bibl>https://www.wikidata.org/wiki/Q783310</bibl>
+    <note>Russian historiorgaphy recognises two events: Peloponnesus Revolt (Пелопонесское восстание) and the First Archipelago Expedition of the Russian Fleet (Первая архипелагская экспедиция). Part of the first Russo-Turkish War (1768-1774).</note>
+  </event>
+  <event from="1573" to="1764" xml:id="pacta01">
+    <label>Pacta conventa</label>
+    <bibl>https://www.wikidata.org/wiki/Q1095146</bibl>
+    <note>contractual agreement entered into between the Polish nation and the newly elected king upon his "free election"</note>
+  </event>
+  <event xml:id="paler01">
+    <label>Palermo Revolt</label>
+  </event>
+  <event when="1718-07-21" xml:id="passa01">
+    <label>Treaty of Passarowitz</label>
+    <bibl>https://www.wikidata.org/wiki/Q211395</bibl>
+  </event>
+  <event from="1772-11-06" to="1772-11-08" xml:id="patra01">
+    <label>Battle of Patras</label>
+    <bibl>https://www.wikidata.org/wiki/Q2040773</bibl>
+    <note>under the command of Michael Konyaev</note>
+  </event>
+  <event when="1762-04-24" xml:id="peter01">
+    <label>Treaty of St Petersburg</label>
+    <bibl>https://www.wikidata.org/wiki/Q689032</bibl>
+  </event>
+  <event xml:id="plagu01">
+    <label>Moscow plague</label>
+  </event>
+  <event when="1771-09-15" xml:id="plagu02">
+    <label>Moscow plague riots</label>
+  </event>
+  <event from="1709-06-27" to="1709-07-08" xml:id="polta01">
+    <label>Battle of Poltava</label>
+    <bibl>https://www.wikidata.org/wiki/Q152486</bibl>
+  </event>
+  <event xml:id="pregn01">
+    <label>Grand Duchess Natalya's pregnancy</label>
+    <note type="source">as noted in the correspondence between Catherine II and Grimm</note>
+  </event>
+  <event xml:id="pruss03">
+    <label>Prussian invasion of Holland</label>
+  </event>
+  <event when="1711-07-23" xml:id="pruth01">
+    <label>Treaty of the Pruth</label>
+    <bibl>https://www.wikidata.org/wiki/Q313349</bibl>
+  </event>
+  <event when="1777-10-16" xml:id="sarat01">
+    <label>The defeat and surrender of British General John Burgoyne at Saratoga</label>
+  </event>
+  <event when="1764-07-05" xml:id="schli01">
+    <label>Rebellion</label>
+    <note>Failed attempt to free Ivan VI from the Sclissemburg Fortress, his death</note>
+  </event>
+  <event from="1790-09-08" to="1790-09-09" xml:id="tendr01">
+    <label>Battle of Tendra</label>
+    <bibl>https://www.wikidata.org/wiki/Q4438427</bibl>
+  </event>
+  <event xml:id="utrec01">
+    <label>Peace of Utretcht</label>
+    <note>peace treaties signed to end the War of the Spanish Succession</note>
+  </event>
+  <event when="1790-08-14" xml:id="varal01">
+    <label>Treaty of Värälä</label>
+    <bibl>https://www.wikidata.org/wiki/Q1456660</bibl>
+    <note>Treaty between Russia and Sweden that concludd the Russo-Swedish War</note>
+  </event>
+  <event when="1648-10-24" xml:id="westph01">
+    <label>Peace of Westphalia</label>
+    <bibl>https://www.wikidata.org/wiki/Q150995</bibl>
+  </event>
+  <event when="1782-08-07" xml:id="monum01">
+    <label>Opening of the monument to Peter the Great in Saint-Petersburg</label>
+  </event>
+  <event when="1792-01-09" xml:id="jassy01">
+    <label>Treaty of Jassy</label>
+    <bibl>https://www.wikidata.org/wiki/Q122442</bibl>
+    <note>Ended Second Russo-Turkish war (1787-1791)</note>
+  </event>
+</listEvent>
+      </body>
+  </text>
+</TEI>
